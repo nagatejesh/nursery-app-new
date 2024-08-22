@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BannerService } from '../service/banner.service';
-import { Banner } from './banner/banner.model';
+import { Banner } from '../model/banner.model';
 
 @Component({
   selector: 'app-home',

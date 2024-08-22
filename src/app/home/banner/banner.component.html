@@ -1,6 +1,8 @@
-<div class="mb-2 mt-2 me-2 bg-dark">
-    <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque incidunt quis, quod ex possimus, voluptates vel velit atque quaerat praesentium sunt corrupti illum animi ipsa? Eaque earum in consectetur error?</p>
-        <img src="" />
+<div class="mb-2 mt-2 bg-dark">
+    <div [ngStyle]="{'backgroud':offer.imageSource}" class="text-white">
+        <h4>{{offer.offerTitle}}</h4>
+        <p>{{offer.offerDetails}}</p>
+        <p>Get Flat/Upto* {{offer.offerDiscount}}% off. Don't miss out on the offer. Hurry now!!</p>
+        <p class="fs-6 text">*T&C applied</p>
     </div>
 </div>
